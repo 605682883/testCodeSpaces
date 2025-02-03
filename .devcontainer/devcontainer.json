@@ -1,6 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "runArgs": ["--device=/dev/net/tun"],
   "features": {
-    "ghcr.io/devcontainers-extra/features/wireguard-apt-get:1": {}
+    "ghcr.io/tailscale/codespace/tailscale": {}
   }
 }
